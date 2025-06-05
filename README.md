@@ -8,6 +8,8 @@ This is a React Native component that generates barcodes using the JSBarcode lib
 
 ## Expo Compatibility
 
+> 💡 For Expo SDK 53, use version 5
+
 > 💡 For Expo SDK 52, use version 4
 
 > 💡 For Expo SDK 51, use version 3
@@ -56,7 +58,7 @@ The options object allows you to customize the appearance and behavior of the ba
 
 | Option       | Description                                                                                   | Default Value |
 | ------------ | --------------------------------------------------------------------------------------------- | ------------- |
-| value        | The value to be encoded into the barcode. (required)                                          | -             |
+| value        | The value to be encoded into the barcode. (required)                                          | \-            |
 | width        | The width of each barcode unit.                                                               | 2             |
 | height       | The height of the barcode.                                                                    | 100           |
 | displayValue | A boolean indicating whether to display the value as text below the barcode.                  | true          |
@@ -72,7 +74,7 @@ The options object allows you to customize the appearance and behavior of the ba
 | marginBottom | The bottom margin of the barcode.                                                             | 10            |
 | marginLeft   | The left margin of the barcode.                                                               | 10            |
 | marginRight  | The right margin of the barcode.                                                              | 10            |
-| rotation     | The rotation angle of the barcode in degrees.                                                 | -             |
+| rotation     | The rotation angle of the barcode in degrees.                                                 | \-            |
 
 ## Supported Barcodes
 
