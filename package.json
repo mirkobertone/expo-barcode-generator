@@ -1,6 +1,6 @@
 {
   "name": "expo-barcode-generator",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "author": {
     "name": "Nicholas Mamali",
     "email": "mamalefhulufhelo@gmail.com"
@@ -23,7 +23,7 @@
   "description": "A React Native barcode generator compatible with Expo",
   "keywords": [
     "React",
-    "ReactNative",
+    "ReactNative", 
     "Barcode",
     "Expo"
   ],
@@ -34,14 +34,14 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\" --fix",
-    "lint:ci": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint:ci": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky",
-    "prettier": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,md}\""
+    "prettier": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
     "jsbarcode": "^3.11.6",
-    "react-native-svg": "15.8.0"
+    "react-native-svg": "15.11.2"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^3.0.5",
@@ -58,6 +58,6 @@
     "lint-staged": "^15.2.10",
     "prettier": "^3.4.1",
     "prop-types": "^15.8.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   }
 }
