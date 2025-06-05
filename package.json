@@ -23,7 +23,7 @@
   "description": "A React Native barcode generator compatible with Expo",
   "keywords": [
     "React",
-    "ReactNative", 
+    "ReactNative",
     "Barcode",
     "Expo"
   ],
@@ -46,8 +46,8 @@
   "devDependencies": {
     "@tsconfig/react-native": "^3.0.5",
     "@types/react": "^19.0.7",
-    "@typescript-eslint/eslint-plugin": "^8.21.0",
-    "@typescript-eslint/parser": "^8.21.0",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
